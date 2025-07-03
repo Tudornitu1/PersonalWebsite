@@ -1,0 +1,25 @@
+import Orb from "./blocks/Backgrounds/Orb/Orb.jsx";
+import Header from "./Header.jsx";
+import Content from "./Content.jsx";
+function App() {
+  return (
+    <div className="w-full h-screen bg-black relative">
+      <div className="orb-container">
+        <Orb
+          hoverIntensity={3.11}
+          rotateOnHover={true}
+          hue={0.5}
+          forceHoverState={false}
+        />
+      </div>
+      <div className="header-container">
+        <Header />
+      </div>
+      <div className="content-container">
+        <Content />
+      </div>
+    </div>
+  );
+}
+
+export default App;
