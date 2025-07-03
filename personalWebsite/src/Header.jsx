@@ -7,7 +7,7 @@ import facebookLogo from "./icons/facebookLogo.png";
 function Header() {
   return (
     <div className="flex justify-between items-center">
-      <h1 className="text-3xl text-white font-sans font-bold">@tudornitu</h1>
+      <h1 className="text-3xl text-white tourney-t  ml-5">@tudornitu</h1>
       <div className="flex justify-between items-center gap-3">
         <a
           href="https://www.linkedin.com/in/tudor-andrei-nitu-11000926b/"

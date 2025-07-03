@@ -36,3 +36,23 @@
 
     pointer-events: auto;
 }
+
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.tourney-t {
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}

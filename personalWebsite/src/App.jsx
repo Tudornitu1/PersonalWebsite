@@ -12,7 +12,7 @@ function App() {
           forceHoverState={false}
         />
       </div>
-      <div className="header-container">
+      <div className="header-container mt-3">
         <Header />
       </div>
       <div className="content-container">
