@@ -44,6 +44,16 @@
     padding: 1rem;
 }
 
+.footer-container {
+    background-color: black;
+    min-height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+
+    color: white;
+}
+
 @media (min-width: 640px) {
     .content-container {
         width: 80%;
