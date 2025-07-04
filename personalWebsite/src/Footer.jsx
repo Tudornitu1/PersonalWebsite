@@ -18,7 +18,7 @@ function Footer() {
         placeholder="Message"
         className="bg-transparent border-2 border-gray-500 rounded-md p-2 w-1/2 h-32"
       />
-      <button className="bg-blue-500 text-white px-4 py-2 rounded-md mb-10">
+      <button className="bg-blue-500 text-white px-4 py-2 rounded-md mb-10 cursor-pointer hover:bg-blue-600">
         Send
       </button>
     </div>

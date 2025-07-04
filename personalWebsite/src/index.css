@@ -49,9 +49,23 @@
     min-height: 400px;
     width: 100%;
     position: relative;
-    z-index: 10;
-
+    z-index: 15;
     color: white;
+    pointer-events: auto;
+}
+
+.footer-container * {
+    pointer-events: auto;
+}
+
+.footer-container button {
+    pointer-events: auto !important;
+    cursor: pointer;
+}
+
+.footer-container input,
+.footer-container textarea {
+    pointer-events: auto !important;
 }
 
 @media (min-width: 640px) {
